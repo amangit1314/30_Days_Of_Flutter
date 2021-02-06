@@ -1,25 +1,17 @@
-import 'package:catelog_app/pages/settings.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
+  final int days = 30;
+  final String name = "Codepur";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catelog App"),
-        backgroundColor: Colors.deepPurple,
-        actions: [
-          IconButton(
-              icon: Icon(Icons.settings),
-              onPressed: () {
-                Settings();
-              })
-        ],
+        title: Text("Catalog App"),
       ),
       body: Center(
-        child: Text(
-          "30 Days of Flutter",
-          style: TextStyle(color: Colors.deepPurple[800]),
+        child: Container(
+          child: Text("Welcome to $days days of flutter by $name"),
         ),
       ),
       drawer: Drawer(),
