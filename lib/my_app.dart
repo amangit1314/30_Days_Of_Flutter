@@ -1,4 +1,3 @@
-import 'package:catelog_app/Login/login_screen.dart';
 import 'package:catelog_app/pages/home_page.dart';
 import 'package:catelog_app/pages/login_page.dart';
 import 'package:catelog_app/utils/routes.dart';
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: "/",
       routes: {
-        "/": (context) => LoginScreen(),
+        "/": (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute: (context) => LoginPage()
       },
