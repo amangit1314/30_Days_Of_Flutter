@@ -17,16 +17,12 @@ class MyDrawer extends StatelessWidget {
             title: Text("Your Account"),
           ),
           ListTile(
-            leading: Icon(Icons.playlist_add),
-            title: Text("Your Playlist"),
+            leading: Icon(Icons.save),
+            title: Text("Saved"),
           ),
           ListTile(
-            leading: Icon(Icons.playlist_play),
-            title: Text("Your Playlist"),
-          ),
-          ListTile(
-            leading: Icon(Icons.import_contacts_sharp),
-            title: Text("Help & Contact"),
+            leading: Icon(Icons.settings),
+            title: Text("Settings"),
           ),
           ListTile(
             leading: Icon(Icons.logout),
