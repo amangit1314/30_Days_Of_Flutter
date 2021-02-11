@@ -1,4 +1,4 @@
-import 'package:catelog_app/pages/drawer.dart';
+import 'package:catelog_app/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
