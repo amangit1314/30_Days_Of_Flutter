@@ -2,9 +2,9 @@ import 'package:catelog_app/pages/cart_page.dart';
 import 'package:catelog_app/pages/home_page.dart';
 import 'package:catelog_app/pages/login_page.dart';
 import 'package:catelog_app/utils/routes.dart';
+import 'package:catelog_app/widgets/themes.dart';
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
-import 'widgets/themes.dart';
 
 void main() {
   runApp(MyApp());
